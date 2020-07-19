@@ -2,6 +2,8 @@ import sys
 import os
 import inspect
 
+# Этот скрипт не имеет никакого отношения к React приложению. Он был создан мной для удобства создания новых JSX компонент.
+
 def createFolder(folder_name):
     JSX_code = inspect.cleandoc(
         '''import React from 'react'
