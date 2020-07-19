@@ -1,0 +1,8 @@
+.componentContainer {
+    display: grid;
+    grid-template-columns: 1fr 755px 1fr;
+    grid-template-rows: 160px 1fr;
+    grid-template-areas: 
+    ". header ."
+    ". main .";
+}

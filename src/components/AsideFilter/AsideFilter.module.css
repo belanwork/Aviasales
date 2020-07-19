@@ -1,0 +1,69 @@
+.componentContainer {
+    grid-area: asideFilter;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.article {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    margin: 20px 20px 10px 20px;
+}
+
+.componentContainer li {
+    padding: 10px 20px;
+}
+
+.componentContainer li:hover {
+    background-color: #F1FCFF;
+}
+
+.checkBox {
+    display: none;
+}
+
+.checkBox:checked~label:before {
+    border: 1px solid #2196F3;
+}
+
+.checkBox:checked~label:after {
+    transform: rotate(-45deg) scale(1);
+}
+
+.checkBoxLabel {
+    position: relative;
+    min-height: 15px;
+    cursor: pointer;
+}
+
+.checkBoxLabel span {
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.checkBoxLabel:before {
+    content: '\00A0\00A0\00A0\202F';
+    position: relative;
+    transition: transform 0.28s ease;
+    border-radius: 3px;
+    border: 1px solid #9ABBCE;
+}
+
+.checkBoxLabel:after {
+    content: '';
+    width: 10px;
+    height: 4px;
+    border-bottom: 2px solid #2196F3;
+    border-left: 2px solid #2196F3;
+    transform: rotate(-45deg) scale(0);
+    transition: transform ease 0.25s;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+}

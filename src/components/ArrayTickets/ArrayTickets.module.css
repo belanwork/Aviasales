@@ -1,0 +1,5 @@
+.componentContainer {
+    grid-area: arrayTickets;
+    display: grid;
+    flex-direction: column;
+}

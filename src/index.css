@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #4A4A4A;
+}
+
+body {
+    background: #F3F7FA;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+li {
+    list-style-type: none;
+}

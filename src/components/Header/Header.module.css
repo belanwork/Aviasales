@@ -1,0 +1,8 @@
+.componentContainer {
+    grid-area: header;
+}
+
+.headerLogo {
+    display: block;
+    margin: 35px auto;
+}

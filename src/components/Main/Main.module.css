@@ -1,0 +1,7 @@
+.componentContainer {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 232px 20px 503px;
+    grid-template-rows: 50px 20px 182px 1fr;
+    grid-template-areas: " asideFilter . headerFilter " " asideFilter . . " " asideFilter . arrayTickets";
+}
